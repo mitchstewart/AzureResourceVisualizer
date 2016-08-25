@@ -49,6 +49,22 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
   display: none;
 }
 
+svg text {
+   font-family: FontAwesome;
+}
+
+.shape.editable {
+   fill: rgb(0, 121, 214);
+}
+
+.shape:hover ~ .editable {
+   fill:white;
+}
+
+.element:hover .editable {
+   fill:white;
+}
+
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
